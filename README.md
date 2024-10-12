@@ -2,7 +2,7 @@
 
 ## Week 4 Assignment
 
-- [Happy number] (https://github.com/BlackPlainLadybug/SWE_2021_41_2024_2_week_4/blob/main/2022315193_%EC%B5%9C%EC%9C%A0%EC%84%9D.ipynb.ipynb)
+- [Happy number](https://github.com/BlackPlainLadybug/SWE_2021_41_2024_2_week_4/blob/main/2022315193_%EC%B5%9C%EC%9C%A0%EC%84%9D.ipynb.ipynb)
 ```python
 def isHappy(n):
   ns=[n]
