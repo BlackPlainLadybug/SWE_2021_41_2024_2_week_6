@@ -9,7 +9,6 @@
 ---
 ## Week 5 Assignment
 
-```bash
 >>docker exec <your container> cat /etc/os-release
 >-Explanation of commandline and your output
 >>docker exec <your container> git --version
