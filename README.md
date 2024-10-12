@@ -4,16 +4,18 @@
 
 - Link of your repository
 
-
 - Description of your code
 ---
 ## Week 5 Assignment
 
->>docker exec <your container> cat /etc/os-release
->-Explanation of commandline and your output
->>docker exec <your container> git --version
->-Explanation of commandline and your output
->>docker exec <your container> python3 --version
->-Explanation of commandline and your output
->>docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
->-Explanation of commandline and your output
+>> docker exec <your container> cat /etc/os-release
+> - Explanation of commandline and your output
+
+>> docker exec <your container> git --version
+> - Explanation of commandline and your output
+
+>> docker exec <your container> python3 --version
+> - Explanation of commandline and your output
+
+>> docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+> - Explanation of commandline and your output
