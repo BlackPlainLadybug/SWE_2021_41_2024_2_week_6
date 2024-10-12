@@ -8,14 +8,14 @@
 ---
 ## Week 5 Assignment
 
->> docker exec <your container> cat /etc/os-release
+>> '''bash docker exec <your container> cat /etc/os-release '''
 > - Explanation of commandline and your output
 
->> docker exec <your container> git --version
+>> '''bash docker exec <your container> git --version '''
 > - Explanation of commandline and your output
 
->> docker exec <your container> python3 --version
+>> '''bash docker exec <your container> python3 --version '''
 > - Explanation of commandline and your output
 
->> docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+>> '''bash docker inspect --format="{{ .HostConfig.Binds }}" <container_name> '''
 > - Explanation of commandline and your output
