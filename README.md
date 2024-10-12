@@ -1,6 +1,5 @@
 # SWE_2021_41_2024_2_week_6
 
----
 ## Week 4 Assignment
 
 - [Happy number] (https://github.com/BlackPlainLadybug/SWE_2021_41_2024_2_week_4/blob/main/2022315193_%EC%B5%9C%EC%9C%A0%EC%84%9D.ipynb.ipynb)
@@ -23,14 +22,14 @@ def isHappy(n):
 ---
 ## Week 5 Assignment
 
-> ```code docker exec <your container> cat /etc/os-release ```
+> ```bash docker exec <your container> cat /etc/os-release ```
 > - print /etc/or-release dir of Docker container. It contain information about OS.
 
-> ```code docker exec <your container> git --version ```
+> ```bash docker exec <your container> git --version ```
 > - Checking the version of git on Docker container
 
-> ```code docker exec <your container> python3 --version ```
+> ```bash docker exec <your container> python3 --version ```
 > - Checking the version of git on Python container
 
-> ```code docker inspect --format="{{ .HostConfig.Binds }}" <container_name> ```
+> ```bash docker inspect --format="{{ .HostConfig.Binds }}" <container_name> ```
 > - Print sharing file between container and host system in format
