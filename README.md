@@ -17,8 +17,7 @@ def isHappy(n):
     ns.append(n2)
     n=n2
 ```
-- Keep all n2s that derived by summing its digits' squares in ns until n2 is already in ns or n2 is 1.
-- If there are loop return false, else return true.
+- Keep all n2s that derived by summing its digits' squares in ns until n2 is already in ns or n2 is 1. If there are loop return false, else return true.
 ---
 ## Week 5 Assignment
 
